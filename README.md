@@ -1,4 +1,4 @@
-# Simplified-Conversion-Tools-for-RecBole-Atomic-Files
+# Simplified Conversion Tools for RecBole Atomic Files
 A simplified and improved version based on the original [RecSysDatasets](https://github.com/RUCAIBox/RecSysDatasets/tree/master)/[conversion_tools](https://github.com/RUCAIBox/RecSysDatasets/tree/master/conversion_tools)
 
 ## Overview
