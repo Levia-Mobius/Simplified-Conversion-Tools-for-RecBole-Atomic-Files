@@ -169,11 +169,16 @@ class MLwoUser(BaseDataset):
                             3: 'class:token_seq'}
     
     def load_inter_data(self):
-        return pd.read_csv(self.inter_file, delimiter=self.sep, header=None, engine='python')
+        return pd.read_csv(
+            self.inter_file, delimiter=self.sep, 
+            header = None if self.dataset_name == 'ml-10m' else 'infer', 
+            engine='python'
+        )
 
     def load_item_data(self):
         origin_data = pd.read_csv(
-            self.item_file, delimiter=self.sep, header=None, 
+            self.item_file, delimiter=self.sep, 
+            header = None if self.dataset_name == 'ml-10m' else 'infer', 
             engine='python', encoding='latin-1' if self.dataset_name == 'ml-10m' else None
         )
         processed_data = origin_data.iloc[:, 0:3]
