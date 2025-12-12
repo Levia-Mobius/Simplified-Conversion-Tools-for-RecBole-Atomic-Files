@@ -29,5 +29,7 @@ Only the following modules/`.py` files are modified (paths below refer to the or
 ## Notes
 This project **IS NOT** an official fork; It is just an independent lightweight redesign intended to complement the original tools.
 
+If you would like to directly download the converted atomic files, please visit the [Google Drive](https://drive.google.com/drive/folders/1n7EhATO136KOGV0YFeI1cTpv2OhbIvVp?usp=sharing). These atomic files are generated using the conversion tool on the **RAW DATA** downloaded from the official source, without any additional processing such as filtering or sorting.
+
 ## Contact
 If you find any issues or would like to request additional dataset support, please open a GitHub issue or contact me (email: ag.wrld.s@gmail.com) directly :)
